@@ -1,0 +1,404 @@
+Lambda Execution Result (Latest Run):
+INIT_REPORT Init Duration: 10006.18 ms	Phase: init	Status: timeout
+
+=== Experiment Errors ===
+
+2025-09-30 01:54:05,722 - INFO - Starting Lévy-Prokhorov Robust Conformal Prediction Experiment
+
+2025-09-30 01:54:05,722 - INFO - Generating time series data with distribution shift...
+
+2025-09-30 01:54:05,724 - INFO - Generating forecasts...
+
+2025-09-30 01:54:05,726 - INFO - Testing epsilon=0.05, rho=0.02
+
+2025-09-30 01:54:05,727 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.02, worst-case quantile=2.5463
+
+2025-09-30 01:54:05,727 - INFO -   Coverage: 0.8100, Avg Width: 5.0925
+
+2025-09-30 01:54:05,727 - INFO - Testing epsilon=0.05, rho=0.05
+
+2025-09-30 01:54:05,727 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.05, worst-case quantile=2.8642
+
+2025-09-30 01:54:05,727 - INFO -   Coverage: 0.8600, Avg Width: 5.7283
+
+2025-09-30 01:54:05,727 - INFO - Testing epsilon=0.05, rho=0.1
+
+2025-09-30 01:54:05,727 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.1, worst-case quantile=3.9226
+
+2025-09-30 01:54:05,728 - INFO -   Coverage: 0.9533, Avg Width: 7.8453
+
+2025-09-30 01:54:05,728 - INFO - Testing epsilon=0.1, rho=0.02
+
+2025-09-30 01:54:05,728 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.02, worst-case quantile=2.5963
+
+2025-09-30 01:54:05,728 - INFO -   Coverage: 0.8167, Avg Width: 5.1925
+
+2025-09-30 01:54:05,728 - INFO - Testing epsilon=0.1, rho=0.05
+
+2025-09-30 01:54:05,728 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.05, worst-case quantile=2.9142
+
+2025-09-30 01:54:05,728 - INFO -   Coverage: 0.8700, Avg Width: 5.8283
+
+2025-09-30 01:54:05,728 - INFO - Testing epsilon=0.1, rho=0.1
+
+2025-09-30 01:54:05,728 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.1, worst-case quantile=3.9726
+
+2025-09-30 01:54:05,728 - INFO -   Coverage: 0.9533, Avg Width: 7.9453
+
+2025-09-30 01:54:05,728 - INFO - Testing epsilon=0.2, rho=0.02
+
+2025-09-30 01:54:05,728 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.02, worst-case quantile=2.6963
+
+2025-09-30 01:54:05,728 - INFO -   Coverage: 0.8300, Avg Width: 5.3925
+
+2025-09-30 01:54:05,728 - INFO - Testing epsilon=0.2, rho=0.05
+
+2025-09-30 01:54:05,729 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.05, worst-case quantile=3.0142
+
+2025-09-30 01:54:05,729 - INFO -   Coverage: 0.8967, Avg Width: 6.0283
+
+2025-09-30 01:54:05,729 - INFO - Testing epsilon=0.2, rho=0.1
+
+2025-09-30 01:54:05,729 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.1, worst-case quantile=4.0726
+
+2025-09-30 01:54:05,729 - INFO -   Coverage: 0.9533, Avg Width: 8.1453
+
+2025-09-30 01:54:05,729 - INFO - Testing standard conformal prediction (epsilon=0, rho=0)
+
+2025-09-30 01:54:05,729 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.0, rho=0.0, worst-case quantile=2.3168
+
+2025-09-30 01:54:05,729 - INFO - 
+
+============================================================
+
+2025-09-30 01:54:05,729 - INFO - FINAL RESULTS
+
+2025-09-30 01:54:05,729 - INFO - ============================================================
+
+2025-09-30 01:54:05,729 - INFO - Standard Conformal Prediction:
+
+2025-09-30 01:54:05,729 - INFO -   Coverage: 0.7767 (Target: 0.900)
+
+2025-09-30 01:54:05,729 - INFO -   Average Interval Width: 4.6336
+
+2025-09-30 01:54:05,729 - INFO - 
+
+Lévy-Prokhorov Robust Conformal Prediction:
+
+2025-09-30 01:54:05,729 - INFO -   epsilon=0.05, rho=0.02:
+
+2025-09-30 01:54:05,729 - INFO -     Coverage: 0.8100
+
+2025-09-30 01:54:05,729 - INFO -     Avg Width: 5.0925
+
+2025-09-30 01:54:05,729 - INFO -     Worst-case Quantile: 2.5463
+
+2025-09-30 01:54:05,729 - INFO -   epsilon=0.05, rho=0.05:
+
+2025-09-30 01:54:05,729 - INFO -     Coverage: 0.8600
+
+2025-09-30 01:54:05,729 - INFO -     Avg Width: 5.7283
+
+2025-09-30 01:54:05,729 - INFO -     Worst-case Quantile: 2.8642
+
+2025-09-30 01:54:05,729 - INFO -   epsilon=0.05, rho=0.1:
+
+2025-09-30 01:54:05,730 - INFO -     Coverage: 0.9533
+
+2025-09-30 01:54:05,730 - INFO -     Avg Width: 7.8453
+
+2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 3.9226
+
+2025-09-30 01:54:05,730 - INFO -   epsilon=0.1, rho=0.02:
+
+2025-09-30 01:54:05,730 - INFO -     Coverage: 0.8167
+
+2025-09-30 01:54:05,730 - INFO -     Avg Width: 5.1925
+
+2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 2.5963
+
+2025-09-30 01:54:05,730 - INFO -   epsilon=0.1, rho=0.05:
+
+2025-09-30 01:54:05,730 - INFO -     Coverage: 0.8700
+
+2025-09-30 01:54:05,730 - INFO -     Avg Width: 5.8283
+
+2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 2.9142
+
+2025-09-30 01:54:05,730 - INFO -   epsilon=0.1, rho=0.1:
+
+2025-09-30 01:54:05,730 - INFO -     Coverage: 0.9533
+
+2025-09-30 01:54:05,730 - INFO -     Avg Width: 7.9453
+
+2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 3.9726
+
+2025-09-30 01:54:05,730 - INFO -   epsilon=0.2, rho=0.02:
+
+2025-09-30 01:54:05,730 - INFO -     Coverage: 0.8300
+
+2025-09-30 01:54:05,730 - INFO -     Avg Width: 5.3925
+
+2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 2.6963
+
+2025-09-30 01:54:05,730 - INFO -   epsilon=0.2, rho=0.05:
+
+2025-09-30 01:54:05,730 - INFO -     Coverage: 0.8967
+
+2025-09-30 01:54:05,730 - INFO -     Avg Width: 6.0283
+
+2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 3.0142
+
+2025-09-30 01:54:05,730 - INFO -   epsilon=0.2, rho=0.1:
+
+2025-09-30 01:54:05,730 - INFO -     Coverage: 0.9533
+
+2025-09-30 01:54:05,730 - INFO -     Avg Width: 8.1453
+
+2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 4.0726
+
+2025-09-30 01:54:05,730 - INFO - 
+
+Best robust parameters: epsilon=0.05, rho=0.05
+
+2025-09-30 01:54:05,730 - INFO - Best coverage: 0.8600
+
+2025-09-30 01:54:05,730 - INFO - Best average width: 5.7283
+
+2025-09-30 01:54:05,730 - INFO - 
+
+Performance Summary:
+
+2025-09-30 01:54:05,730 - INFO - Coverage improvement over standard CP: 0.1767
+
+2025-09-30 01:54:05,730 - INFO - Robustness achieved: True
+
+2025-09-30 01:54:05,730 - INFO - Experiment completed successfully!
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "2025-09-30 01:54:05,722 - INFO - Starting L\u00e9vy-Prokhorov Robust Conformal Prediction Experiment\n2025-09-30 01:54:05,722 - INFO - Generating time series data with distribution shift...\n2025-09-30 01:54:05,724 - INFO - Generating forecasts...\n2025-09-30 01:54:05,726 - INFO - Testing epsilon=0.05, rho=0.02\n2025-09-30 01:54:05,727 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.02, worst-case quantile=2.5463\n2025-09-30 01:54:05,727 - INFO -   Coverage: 0.8100, Avg Width: 5.0925\n2025-09-30 01:54:05,727 - INFO - Testing epsilon=0.05, rho=0.05\n2025-09-30 01:54:05,727 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.05, worst-case quantile=2.8642\n2025-09-30 01:54:05,727 - INFO -   Coverage: 0.8600, Avg Width: 5.7283\n2025-09-30 01:54:05,727 - INFO - Testing epsilon=0.05, rho=0.1\n2025-09-30 01:54:05,727 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.1, worst-case quantile=3.9226\n2025-09-30 01:54:05,728 - INFO -   Coverage: 0.9533, Avg Width: 7.8453\n2025-09-30 01:54:05,728 - INFO - Testing epsilon=0.1, rho=0.02\n2025-09-30 01:54:05,728 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.02, worst-case quantile=2.5963\n2025-09-30 01:54:05,728 - INFO -   Coverage: 0.8167, Avg Width: 5.1925\n2025-09-30 01:54:05,728 - INFO - Testing epsilon=0.1, rho=0.05\n2025-09-30 01:54:05,728 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.05, worst-case quantile=2.9142\n2025-09-30 01:54:05,728 - INFO -   Coverage: 0.8700, Avg Width: 5.8283\n2025-09-30 01:54:05,728 - INFO - Testing epsilon=0.1, rho=0.1\n2025-09-30 01:54:05,728 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.1, worst-case quantile=3.9726\n2025-09-30 01:54:05,728 - INFO -   Coverage: 0.9533, Avg Width: 7.9453\n2025-09-30 01:54:05,728 - INFO - Testing epsilon=0.2, rho=0.02\n2025-09-30 01:54:05,728 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.02, worst-case quantile=2.6963\n2025-09-30 01:54:05,728 - INFO -   Coverage: 0.8300, Avg Width: 5.3925\n2025-09-30 01:54:05,728 - INFO - Testing epsilon=0.2, rho=0.05\n2025-09-30 01:54:05,729 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.05, worst-case quantile=3.0142\n2025-09-30 01:54:05,729 - INFO -   Coverage: 0.8967, Avg Width: 6.0283\n2025-09-30 01:54:05,729 - INFO - Testing epsilon=0.2, rho=0.1\n2025-09-30 01:54:05,729 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.1, worst-case quantile=4.0726\n2025-09-30 01:54:05,729 - INFO -   Coverage: 0.9533, Avg Width: 8.1453\n2025-09-30 01:54:05,729 - INFO - Testing standard conformal prediction (epsilon=0, rho=0)\n2025-09-30 01:54:05,729 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.0, rho=0.0, worst-case quantile=2.3168\n2025-09-30 01:54:05,729 - INFO - \n============================================================\n2025-09-30 01:54:05,729 - INFO - FINAL RESULTS\n2025-09-30 01:54:05,729 - INFO - ============================================================\n2025-09-30 01:54:05,729 - INFO - Standard Conformal Prediction:\n2025-09-30 01:54:05,729 - INFO -   Coverage: 0.7767 (Target: 0.900)\n2025-09-30 01:54:05,729 - INFO -   Average Interval Width: 4.6336\n2025-09-30 01:54:05,729 - INFO - \nL\u00e9vy-Prokhorov Robust Conformal Prediction:\n2025-09-30 01:54:05,729 - INFO -   epsilon=0.05, rho=0.02:\n2025-09-30 01:54:05,729 - INFO -     Coverage: 0.8100\n2025-09-30 01:54:05,729 - INFO -     Avg Width: 5.0925\n2025-09-30 01:54:05,729 - INFO -     Worst-case Quantile: 2.5463\n2025-09-30 01:54:05,729 - INFO -   epsilon=0.05, rho=0.05:\n2025-09-30 01:54:05,729 - INFO -     Coverage: 0.8600\n2025-09-30 01:54:05,729 - INFO -     Avg Width: 5.7283\n2025-09-30 01:54:05,729 - INFO -     Worst-case Quantile: 2.8642\n2025-09-30 01:54:05,729 - INFO -   epsilon=0.05, rho=0.1:\n2025-09-30 01:54:05,730 - INFO -     Coverage: 0.9533\n2025-09-30 01:54:05,730 - INFO -     Avg Width: 7.8453\n2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 3.9226\n2025-09-30 01:54:05,730 - INFO -   epsilon=0.1, rho=0.02:\n2025-09-30 01:54:05,730 - INFO -     Coverage: 0.8167\n2025-09-30 01:54:05,730 - INFO -     Avg Width: 5.1925\n2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 2.5963\n2025-09-30 01:54:05,730 - INFO -   epsilon=0.1, rho=0.05:\n2025-09-30 01:54:05,730 - INFO -     Coverage: 0.8700\n2025-09-30 01:54:05,730 - INFO -     Avg Width: 5.8283\n2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 2.9142\n2025-09-30 01:54:05,730 - INFO -   epsilon=0.1, rho=0.1:\n2025-09-30 01:54:05,730 - INFO -     Coverage: 0.9533\n2025-09-30 01:54:05,730 - INFO -     Avg Width: 7.9453\n2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 3.9726\n2025-09-30 01:54:05,730 - INFO -   epsilon=0.2, rho=0.02:\n2025-09-30 01:54:05,730 - INFO -     Coverage: 0.8300\n2025-09-30 01:54:05,730 - INFO -     Avg Width: 5.3925\n2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 2.6963\n2025-09-30 01:54:05,730 - INFO -   epsilon=0.2, rho=0.05:\n2025-09-30 01:54:05,730 - INFO -     Coverage: 0.8967\n2025-09-30 01:54:05,730 - INFO -     Avg Width: 6.0283\n2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 3.0142\n2025-09-30 01:54:05,730 - INFO -   epsilon=0.2, rho=0.1:\n2025-09-30 01:54:05,730 - INFO -     Coverage: 0.9533\n2025-09-30 01:54:05,730 - INFO -     Avg Width: 8.1453\n2025-09-30 01:54:05,730 - INFO -     Worst-case Quantile: 4.0726\n2025-09-30 01:54:05,730 - INFO - \nBest robust parameters: epsilon=0.05, rho=0.05\n2025-09-30 01:54:05,730 - INFO - Best coverage: 0.8600\n2025-09-30 01:54:05,730 - INFO - Best average width: 5.7283\n2025-09-30 01:54:05,730 - INFO - \nPerformance Summary:\n2025-09-30 01:54:05,730 - INFO - Coverage improvement over standard CP: 0.1767\n2025-09-30 01:54:05,730 - INFO - Robustness achieved: True\n2025-09-30 01:54:05,730 - INFO - Experiment completed successfully!\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 7949.90 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: 9db178c4-d213-4a36-9f7b-0fb48dbdef79 Version: $LATEST
+
+RequestId: 9db178c4-d213-4a36-9f7b-0fb48dbdef79 Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: 9db178c4-d213-4a36-9f7b-0fb48dbdef79
+
+REPORT RequestId: 9db178c4-d213-4a36-9f7b-0fb48dbdef79	Duration: 7951.69 ms	Billed Duration: 7952 ms	Memory Size: 3008 MB	Max Memory Used: 91 MB	
+
+=== Experiment Errors ===
+
+2025-09-30 01:54:06,565 - INFO - Starting Lévy-Prokhorov Robust Conformal Prediction Experiment
+
+2025-09-30 01:54:06,565 - INFO - Generating time series data with distribution shift...
+
+2025-09-30 01:54:06,566 - INFO - Generating forecasts...
+
+2025-09-30 01:54:06,568 - INFO - Testing epsilon=0.05, rho=0.02
+
+2025-09-30 01:54:06,569 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.02, worst-case quantile=2.5463
+
+2025-09-30 01:54:06,569 - INFO -   Coverage: 0.8100, Avg Width: 5.0925
+
+2025-09-30 01:54:06,569 - INFO - Testing epsilon=0.05, rho=0.05
+
+2025-09-30 01:54:06,569 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.05, worst-case quantile=2.8642
+
+2025-09-30 01:54:06,569 - INFO -   Coverage: 0.8600, Avg Width: 5.7283
+
+2025-09-30 01:54:06,569 - INFO - Testing epsilon=0.05, rho=0.1
+
+2025-09-30 01:54:06,569 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.1, worst-case quantile=3.9226
+
+2025-09-30 01:54:06,569 - INFO -   Coverage: 0.9533, Avg Width: 7.8453
+
+2025-09-30 01:54:06,569 - INFO - Testing epsilon=0.1, rho=0.02
+
+2025-09-30 01:54:06,569 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.02, worst-case quantile=2.5963
+
+2025-09-30 01:54:06,569 - INFO -   Coverage: 0.8167, Avg Width: 5.1925
+
+2025-09-30 01:54:06,570 - INFO - Testing epsilon=0.1, rho=0.05
+
+2025-09-30 01:54:06,570 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.05, worst-case quantile=2.9142
+
+2025-09-30 01:54:06,570 - INFO -   Coverage: 0.8700, Avg Width: 5.8283
+
+2025-09-30 01:54:06,570 - INFO - Testing epsilon=0.1, rho=0.1
+
+2025-09-30 01:54:06,570 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.1, worst-case quantile=3.9726
+
+2025-09-30 01:54:06,570 - INFO -   Coverage: 0.9533, Avg Width: 7.9453
+
+2025-09-30 01:54:06,570 - INFO - Testing epsilon=0.2, rho=0.02
+
+2025-09-30 01:54:06,570 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.02, worst-case quantile=2.6963
+
+2025-09-30 01:54:06,570 - INFO -   Coverage: 0.8300, Avg Width: 5.3925
+
+2025-09-30 01:54:06,570 - INFO - Testing epsilon=0.2, rho=0.05
+
+2025-09-30 01:54:06,570 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.05, worst-case quantile=3.0142
+
+2025-09-30 01:54:06,570 - INFO -   Coverage: 0.8967, Avg Width: 6.0283
+
+2025-09-30 01:54:06,570 - INFO - Testing epsilon=0.2, rho=0.1
+
+2025-09-30 01:54:06,571 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.1, worst-case quantile=4.0726
+
+2025-09-30 01:54:06,571 - INFO -   Coverage: 0.9533, Avg Width: 8.1453
+
+2025-09-30 01:54:06,571 - INFO - Testing standard conformal prediction (epsilon=0, rho=0)
+
+2025-09-30 01:54:06,571 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.0, rho=0.0, worst-case quantile=2.3168
+
+2025-09-30 01:54:06,571 - INFO - 
+
+============================================================
+
+2025-09-30 01:54:06,571 - INFO - FINAL RESULTS
+
+2025-09-30 01:54:06,571 - INFO - ============================================================
+
+2025-09-30 01:54:06,571 - INFO - Standard Conformal Prediction:
+
+2025-09-30 01:54:06,571 - INFO -   Coverage: 0.7767 (Target: 0.900)
+
+2025-09-30 01:54:06,571 - INFO -   Average Interval Width: 4.6336
+
+2025-09-30 01:54:06,571 - INFO - 
+
+Lévy-Prokhorov Robust Conformal Prediction:
+
+2025-09-30 01:54:06,571 - INFO -   epsilon=0.05, rho=0.02:
+
+2025-09-30 01:54:06,571 - INFO -     Coverage: 0.8100
+
+2025-09-30 01:54:06,571 - INFO -     Avg Width: 5.0925
+
+2025-09-30 01:54:06,571 - INFO -     Worst-case Quantile: 2.5463
+
+2025-09-30 01:54:06,571 - INFO -   epsilon=0.05, rho=0.05:
+
+2025-09-30 01:54:06,571 - INFO -     Coverage: 0.8600
+
+2025-09-30 01:54:06,571 - INFO -     Avg Width: 5.7283
+
+2025-09-30 01:54:06,571 - INFO -     Worst-case Quantile: 2.8642
+
+2025-09-30 01:54:06,571 - INFO -   epsilon=0.05, rho=0.1:
+
+2025-09-30 01:54:06,571 - INFO -     Coverage: 0.9533
+
+2025-09-30 01:54:06,571 - INFO -     Avg Width: 7.8453
+
+2025-09-30 01:54:06,571 - INFO -     Worst-case Quantile: 3.9226
+
+2025-09-30 01:54:06,571 - INFO -   epsilon=0.1, rho=0.02:
+
+2025-09-30 01:54:06,571 - INFO -     Coverage: 0.8167
+
+2025-09-30 01:54:06,571 - INFO -     Avg Width: 5.1925
+
+2025-09-30 01:54:06,571 - INFO -     Worst-case Quantile: 2.5963
+
+2025-09-30 01:54:06,571 - INFO -   epsilon=0.1, rho=0.05:
+
+2025-09-30 01:54:06,571 - INFO -     Coverage: 0.8700
+
+2025-09-30 01:54:06,571 - INFO -     Avg Width: 5.8283
+
+2025-09-30 01:54:06,571 - INFO -     Worst-case Quantile: 2.9142
+
+2025-09-30 01:54:06,572 - INFO -   epsilon=0.1, rho=0.1:
+
+2025-09-30 01:54:06,572 - INFO -     Coverage: 0.9533
+
+2025-09-30 01:54:06,572 - INFO -     Avg Width: 7.9453
+
+2025-09-30 01:54:06,572 - INFO -     Worst-case Quantile: 3.9726
+
+2025-09-30 01:54:06,572 - INFO -   epsilon=0.2, rho=0.02:
+
+2025-09-30 01:54:06,572 - INFO -     Coverage: 0.8300
+
+2025-09-30 01:54:06,572 - INFO -     Avg Width: 5.3925
+
+2025-09-30 01:54:06,572 - INFO -     Worst-case Quantile: 2.6963
+
+2025-09-30 01:54:06,572 - INFO -   epsilon=0.2, rho=0.05:
+
+2025-09-30 01:54:06,572 - INFO -     Coverage: 0.8967
+
+2025-09-30 01:54:06,572 - INFO -     Avg Width: 6.0283
+
+2025-09-30 01:54:06,572 - INFO -     Worst-case Quantile: 3.0142
+
+2025-09-30 01:54:06,572 - INFO -   epsilon=0.2, rho=0.1:
+
+2025-09-30 01:54:06,572 - INFO -     Coverage: 0.9533
+
+2025-09-30 01:54:06,572 - INFO -     Avg Width: 8.1453
+
+2025-09-30 01:54:06,572 - INFO -     Worst-case Quantile: 4.0726
+
+2025-09-30 01:54:06,572 - INFO - 
+
+Best robust parameters: epsilon=0.05, rho=0.05
+
+2025-09-30 01:54:06,572 - INFO - Best coverage: 0.8600
+
+2025-09-30 01:54:06,572 - INFO - Best average width: 5.7283
+
+2025-09-30 01:54:06,572 - INFO - 
+
+Performance Summary:
+
+2025-09-30 01:54:06,572 - INFO - Coverage improvement over standard CP: 0.1767
+
+2025-09-30 01:54:06,572 - INFO - Robustness achieved: True
+
+2025-09-30 01:54:06,572 - INFO - Experiment completed successfully!
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "2025-09-30 01:54:06,565 - INFO - Starting L\u00e9vy-Prokhorov Robust Conformal Prediction Experiment\n2025-09-30 01:54:06,565 - INFO - Generating time series data with distribution shift...\n2025-09-30 01:54:06,566 - INFO - Generating forecasts...\n2025-09-30 01:54:06,568 - INFO - Testing epsilon=0.05, rho=0.02\n2025-09-30 01:54:06,569 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.02, worst-case quantile=2.5463\n2025-09-30 01:54:06,569 - INFO -   Coverage: 0.8100, Avg Width: 5.0925\n2025-09-30 01:54:06,569 - INFO - Testing epsilon=0.05, rho=0.05\n2025-09-30 01:54:06,569 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.05, worst-case quantile=2.8642\n2025-09-30 01:54:06,569 - INFO -   Coverage: 0.8600, Avg Width: 5.7283\n2025-09-30 01:54:06,569 - INFO - Testing epsilon=0.05, rho=0.1\n2025-09-30 01:54:06,569 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.05, rho=0.1, worst-case quantile=3.9226\n2025-09-30 01:54:06,569 - INFO -   Coverage: 0.9533, Avg Width: 7.8453\n2025-09-30 01:54:06,569 - INFO - Testing epsilon=0.1, rho=0.02\n2025-09-30 01:54:06,569 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.02, worst-case quantile=2.5963\n2025-09-30 01:54:06,569 - INFO -   Coverage: 0.8167, Avg Width: 5.1925\n2025-09-30 01:54:06,570 - INFO - Testing epsilon=0.1, rho=0.05\n2025-09-30 01:54:06,570 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.05, worst-case quantile=2.9142\n2025-09-30 01:54:06,570 - INFO -   Coverage: 0.8700, Avg Width: 5.8283\n2025-09-30 01:54:06,570 - INFO - Testing epsilon=0.1, rho=0.1\n2025-09-30 01:54:06,570 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.1, rho=0.1, worst-case quantile=3.9726\n2025-09-30 01:54:06,570 - INFO -   Coverage: 0.9533, Avg Width: 7.9453\n2025-09-30 01:54:06,570 - INFO - Testing epsilon=0.2, rho=0.02\n2025-09-30 01:54:06,570 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.02, worst-case quantile=2.6963\n2025-09-30 01:54:06,570 - INFO -   Coverage: 0.8300, Avg Width: 5.3925\n2025-09-30 01:54:06,570 - INFO - Testing epsilon=0.2, rho=0.05\n2025-09-30 01:54:06,570 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.05, worst-case quantile=3.0142\n2025-09-30 01:54:06,570 - INFO -   Coverage: 0.8967, Avg Width: 6.0283\n2025-09-30 01:54:06,570 - INFO - Testing epsilon=0.2, rho=0.1\n2025-09-30 01:54:06,571 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.2, rho=0.1, worst-case quantile=4.0726\n2025-09-30 01:54:06,571 - INFO -   Coverage: 0.9533, Avg Width: 8.1453\n2025-09-30 01:54:06,571 - INFO - Testing standard conformal prediction (epsilon=0, rho=0)\n2025-09-30 01:54:06,571 - INFO - Fitted robust conformal predictor: n=200, alpha=0.1, epsilon=0.0, rho=0.0, worst-case quantile=2.3168\n2025-09-30 01:54:06,571 - INFO - \n============================================================\n2025-09-30 01:54:06,571 - INFO - FINAL RESULTS\n2025-09-30 01:54:06,571 - INFO - ============================================================\n2025-09-30 01:54:06,571 - INFO - Standard Conformal Prediction:\n2025-09-30 01:54:06,571 - INFO -   Coverage: 0.7767 (Target: 0.900)\n2025-09-30 01:54:06,571 - INFO -   Average Interval Width: 4.6336\n2025-09-30 01:54:06,571 - INFO - \nL\u00e9vy-Prokhorov Robust Conformal Prediction:\n2025-09-30 01:54:06,571 - INFO -   epsilon=0.05, rho=0.02:\n2025-09-30 01:54:06,571 - INFO -     Coverage: 0.8100\n2025-09-30 01:54:06,571 - INFO -     Avg Width: 5.0925\n2025-09-30 01:54:06,571 - INFO -     Worst-case Quantile: 2.5463\n2025-09-30 01:54:06,571 - INFO -   epsilon=0.05, rho=0.05:\n2025-09-30 01:54:06,571 - INFO -     Coverage: 0.8600\n2025-09-30 01:54:06,571 - INFO -     Avg Width: 5.7283\n2025-09-30 01:54:06,571 - INFO -     Worst-case Quantile: 2.8642\n2025-09-30 01:54:06,571 - INFO -   epsilon=0.05, rho=0.1:\n2025-09-30 01:54:06,571 - INFO -     Coverage: 0.9533\n2025-09-30 01:54:06,571 - INFO -     Avg Width: 7.8453\n2025-09-30 01:54:06,571 - INFO -     Worst-case Quantile: 3.9226\n2025-09-30 01:54:06,571 - INFO -   epsilon=0.1, rho=0.02:\n2025-09-30 01:54:06,571 - INFO -     Coverage: 0.8167\n2025-09-30 01:54:06,571 - INFO -     Avg Width: 5.1925\n2025-09-30 01:54:06,571 - INFO -     Worst-case Quantile: 2.5963\n2025-09-30 01:54:06,571 - INFO -   epsilon=0.1, rho=0.05:\n2025-09-30 01:54:06,571 - INFO -     Coverage: 0.8700\n2025-09-30 01:54:06,571 - INFO -     Avg Width: 5.8283\n2025-09-30 01:54:06,571 - INFO -     Worst-case Quantile: 2.9142\n2025-09-30 01:54:06,572 - INFO -   epsilon=0.1, rho=0.1:\n2025-09-30 01:54:06,572 - INFO -     Coverage: 0.9533\n2025-09-30 01:54:06,572 - INFO -     Avg Width: 7.9453\n2025-09-30 01:54:06,572 - INFO -     Worst-case Quantile: 3.9726\n2025-09-30 01:54:06,572 - INFO -   epsilon=0.2, rho=0.02:\n2025-09-30 01:54:06,572 - INFO -     Coverage: 0.8300\n2025-09-30 01:54:06,572 - INFO -     Avg Width: 5.3925\n2025-09-30 01:54:06,572 - INFO -     Worst-case Quantile: 2.6963\n2025-09-30 01:54:06,572 - INFO -   epsilon=0.2, rho=0.05:\n2025-09-30 01:54:06,572 - INFO -     Coverage: 0.8967\n2025-09-30 01:54:06,572 - INFO -     Avg Width: 6.0283\n2025-09-30 01:54:06,572 - INFO -     Worst-case Quantile: 3.0142\n2025-09-30 01:54:06,572 - INFO -   epsilon=0.2, rho=0.1:\n2025-09-30 01:54:06,572 - INFO -     Coverage: 0.9533\n2025-09-30 01:54:06,572 - INFO -     Avg Width: 8.1453\n2025-09-30 01:54:06,572 - INFO -     Worst-case Quantile: 4.0726\n2025-09-30 01:54:06,572 - INFO - \nBest robust parameters: epsilon=0.05, rho=0.05\n2025-09-30 01:54:06,572 - INFO - Best coverage: 0.8600\n2025-09-30 01:54:06,572 - INFO - Best average width: 5.7283\n2025-09-30 01:54:06,572 - INFO - \nPerformance Summary:\n2025-09-30 01:54:06,572 - INFO - Coverage improvement over standard CP: 0.1767\n2025-09-30 01:54:06,572 - INFO - Robustness achieved: True\n2025-09-30 01:54:06,572 - INFO - Experiment completed successfully!\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 794.79 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
